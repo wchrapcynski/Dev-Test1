@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import QuestionOne from "./components/QuestionOne"
 
 function App() {
   return (
@@ -7,8 +8,9 @@ function App() {
       <header className="App-header">
         <h1>Blueprint Dev Text - Part 1</h1>
       </header>
-      <body>
-      </body>
+      <main>
+        <QuestionOne />
+      </main>
     </div>
   );
 }
