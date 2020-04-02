@@ -21,10 +21,10 @@ function QuestionOne() {
         1. Randomize the order of the following number set: "22, 14, 3, 4, 37,
         6, 7, 81, 9, 10".
       </p>
-      <p>
-        {shuffle(originalArray).map((item, key) => {
+      <p>Randomized set:&nbsp;
+        {shuffle(originalArray).map((item, key, array) => {
           return(<span key={key}>
-            {item + " "}   
+            {item + (key === array.length -1 ? "": ", ")}   
           </span>)
         })}
       </p>

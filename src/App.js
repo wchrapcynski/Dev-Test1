@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.scss";
-import QuestionOne from "./components/QuestionOne"
+import QuestionOne from "./components/QuestionOne";
+import QuestionTwo from "./components/QuestionTwo";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <QuestionOne />
+        <QuestionTwo />
       </main>
     </div>
   );
