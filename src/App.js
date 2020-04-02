@@ -3,6 +3,7 @@ import "./App.scss";
 import QuestionOne from "./components/QuestionOne";
 import QuestionTwo from "./components/QuestionTwo";
 import QuestionThree from "./components/QuestionThree"
+import Bonus from "./components/Bonus"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <QuestionOne />
         <QuestionTwo />
         <QuestionThree />
+        <Bonus />
       </main>
     </div>
   );

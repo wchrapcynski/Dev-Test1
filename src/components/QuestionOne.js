@@ -3,6 +3,7 @@ import React from "react";
 function QuestionOne() {
   const originalArray = [22, 14, 3, 4, 37, 6, 7, 81, 9, 10]
 
+  // Fisher - Yates Shuffle
   const shuffle = (array) => {
     var counter = array.length;
     while (counter > 0) {
