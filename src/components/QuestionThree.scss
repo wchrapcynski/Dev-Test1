@@ -1,0 +1,34 @@
+.table-example {
+    width: 400px;
+}
+
+.table {
+    border: 1px solid grey;
+    display: table;
+    border-collapse: separate;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    th {
+        border: 1px solid grey;
+    }
+    
+    td {
+        border: 1px solid grey;
+        display: table-cell;
+        vertical-align: inherit;
+    }
+    
+    tr {
+        border: 1px solid grey;
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+}

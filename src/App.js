@@ -2,6 +2,7 @@ import React from "react";
 import "./App.scss";
 import QuestionOne from "./components/QuestionOne";
 import QuestionTwo from "./components/QuestionTwo";
+import QuestionThree from "./components/QuestionThree"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <QuestionOne />
         <QuestionTwo />
+        <QuestionThree />
       </main>
     </div>
   );
